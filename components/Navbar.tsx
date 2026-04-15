@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-6 py-4 bg-black/90 backdrop-blur border-b border-gray-800 sticky top-0 z-50">
       {/* <h1 className="text-xl font-bold text-orange-500">Halal Oven</h1> */}
-      <Image src="/images/logo.jpg" alt="Halal Oven Logo" width="80px" height="40px" className="rounded-full" />  
+      <Image src="/images/logo.jpg" alt="Halal Oven Logo" width="80" height="40" className="rounded-full" />  
 
       <div className="flex items-center gap-6 text-gray-300">
         <Link href="/menu" className="hover:text-white transition-colors">Menu</Link>
